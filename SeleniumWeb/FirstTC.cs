@@ -13,7 +13,6 @@ namespace SeleniumWeb
             IWebDriver driver = new ChromeDriver();
             driver.Url = "http://google.com";
             driver.FindElement(By.Name("q")).SendKeys("five");
-            driver.FindElement(By.Name("q")).Click();
             driver.FindElement(By.Name("btnK"));
             var path = "//*[@id='rhs']//div[2]/div[1]/span";
             Assert.That(false, path);
