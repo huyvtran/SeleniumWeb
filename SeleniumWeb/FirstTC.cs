@@ -17,6 +17,7 @@ namespace SeleniumWeb
             var path = "//*[@id='rhs']//div[2]/div[1]/span";
             Assert.That(false, path);
             driver.Quit();
+            //check in
         }
     }
 }
