@@ -53,14 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FirstTC.cs" />
+    <Compile Include="Driver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestCases\FirstTC.cs" />
+    <Compile Include="Utility\BrowserTypes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="TestCases" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
