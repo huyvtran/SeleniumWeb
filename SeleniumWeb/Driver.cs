@@ -60,7 +60,11 @@ namespace SeleniumWeb
             }
             BrowserWait=new WebDriverWait(Driver.Browser, TimeSpan.FromSeconds(defaultTimeOut));
         }
-        
+
+        public static void TMP()
+        {
+            NotImplementedException tmo;
+        }
 
         public static void StopBrowser()
         {
